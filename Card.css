@@ -8,6 +8,7 @@
   width: 220px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, .08);
+  aspect-ratio: 1/0.3;
 }
 .card-img {
   border-radius: 50%;
