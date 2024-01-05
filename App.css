@@ -1,7 +1,24 @@
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   flex-direction: column;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: 6rem;
+}
+
+button {
+  position: absolute;
+  top: 3%;
+  left: 44%;
+}
+
+.container > div {
+  animation: fadeIn 1s ease-in-out;
 }
